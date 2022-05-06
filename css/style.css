@@ -1,0 +1,37 @@
+
+/* main {
+    position: relative;
+} */
+
+/* .container>.row #fixed {
+    min-width: 30%;
+    background-color: gray;
+    min-height: 100vh;
+    position: absolute;
+    left: 0;
+    margin-top: 100px;
+}
+
+[class *= "my-container"] {
+    background-color: darkcyan;
+    position: absolute;
+    min-width: 50%;
+    right: 0;
+    top: 100px;
+} */
+
+#left {
+    position: fixed;
+    min-height: 100%; 
+    background-color: gray;
+    top: 9em;
+    left: 0;
+}
+
+#center {
+    min-width: 50rem;
+    height: 100vh; 
+    background-color: darkcyan;
+    margin: 30em 20em 0;
+    left: 5rem;
+}
